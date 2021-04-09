@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Website Survey Form</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="top-container">
+  </div>
+  <div class="header-div">
+    <h1>Project Survey Form</h1>
+    <p><i>Thank you for taking the time to help us improve the project</i></p>
+  </div>
+
+  <div class="form-div">
+    <form class="" action="mailto:example@gmail.ru" method="post">
+
+      <label for="name">Name</label><br>
+      <input class="wide-field" type="text" name="Name" required><br>
+
+      <label for="email">e-mail</label><br>
+      <input class="wide-field" type="text" name="Email" value="" required><br>
+
+      <label for="email">Age(optional)</label><br>
+      <input class="wide-field" type="number" name="email" value="" placeholder="Age" min="10" max="99"><br>
+
+      <label for="options">Which option best describes your current role?</label><br>
+      <select class="wide-field-select" name="options">
+        <option value="">Select current role</option>
+        <option value="Student">Student</option>
+        <option value="Full time job">Full time job</option>
+        <option value="Full time learner">Full time learner</option>
+        <option value="Prefer not to say">Prefer not to say</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <div>
+        <p>Would you recommend the project to a friend?</p><br>
+        <input type="radio" name="choice" value="May be">
+        <label for="contactChoice1">Definitely</label><br>
+
+        <input type="radio" name="choice" value="May be">
+        <label for="Choice2">May be</label><br>
+
+        <input type="radio" name="choice" value="Not sure">
+        <label for="Choice3">Not shure</label><br>
+      </div>
+
+      <div>
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <input type="checkbox" name="choice1" value="Front-end Projects">
+        <label for="choice1">Front-end Projects</label><br>
+
+        <input type="checkbox" name="choice2" value="Back-end Projects">
+        <label for="choice1">Back-end Projects</label><br>
+
+        <input type="checkbox" name="choice3" value="Data Visualization">
+        <label for="choice1">Data Visualization</label><br>
+
+        <input type="checkbox" name="choice4" value="Challenges">
+        <label for="choice1">Challenges</label><br>
+
+        <input type="checkbox" name="choice5" value="Open Source Community">
+        <label for="choice1">Open Source Community</label><br>
+
+        <input type="checkbox" name="choice6" value="Gitter help rooms">
+        <label for="choice1">Gitter help rooms</label><br>
+
+        <input type="checkbox" name="choice7" value="Videos">
+        <label for="choice1">Videos</label><br>
+
+        <input type="checkbox" name="choice8" value="City Meetups">
+        <label for="choice1">City Meetups</label><br>
+
+        <input type="checkbox" name="choice9" value="Wiki">
+        <label for="choice1">Wiki</label><br>
+
+        <input type="checkbox" name="choice10" value="Forum">
+        <label for="choice1">Forum</label><br>
+      </div>
+
+      <div>
+        <p>Any comments or suggestions?</p>
+        <textarea name="name" rows="8" cols="78" placeholder="Enter your comment here..."></textarea>
+      </div>
+
+      <div class="button-div">
+        <button class="wide-button" type="submit" name="button">Submit</button>
+      </div>
+
+    </form>
+  </div>
+
+</body>
+
+</html>
