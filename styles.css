@@ -1,0 +1,53 @@
+/* Common Tags */
+
+body {
+  background-color: #005691;
+  margin: 0;
+  color: #eeeeee;
+  font-size: 1.3rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section  */
+
+.top-container {
+  background-color: #0f4c75;
+  height: 5rem;
+}
+
+/* Main Content */
+
+.header-div {
+  text-align: center;
+  color: #fff;
+}
+
+.form-div {
+  background-color: #0f4c75;
+  margin: 0 30%;
+  padding: 3% 3%;
+  border-radius: 5px;
+}
+
+.wide-field {
+  width: 100%;
+  height: 2rem;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.wide-field-select {
+ width: 101%;
+ height: 2rem;
+ border-radius: 5px;
+}
+
+.wide-button {
+  width: 100%;
+  margin: 2% 0;
+  height: 2rem;
+  border-radius: 5px;
+}
+.button-div {
+  text-align: center;
+}
